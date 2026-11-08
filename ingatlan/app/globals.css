@@ -1,0 +1,9 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body{@apply bg-ivory text-anthracite font-sans antialiased}
+h1,h2,h3{@apply font-serif text-navy}
+.btn{@apply inline-flex items-center justify-center rounded-md px-6 py-3 text-sm font-medium transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold}
+.btn-gold{@apply bg-gold text-navy hover:bg-[#c9ad7b]}
+.btn-line{@apply border border-white/40 text-white hover:bg-white/10}
+.btn-navy{@apply bg-navy text-ivory hover:bg-anthracite}
+.input{@apply w-full rounded-md border border-mist bg-white px-3 py-2.5 text-sm focus:border-gold focus:outline-none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
